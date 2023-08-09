@@ -7,9 +7,38 @@
 body {
   background-color: #f1f5f9;
   font-family: 'Lato', sans-serif;
+  overflow-x: hidden;
 }
 
 * {
   margin: 0;
   padding: 0;
+}
+
+.odd {
+  background-color: #8b324d;
+}
+
+.even {
+  background-color: #a23b5a;
+}
+
+.detail-table tr {
+  height: 100px;
+}
+
+.detail-table h1 {
+  font-weight: bolder;
+}
+
+.detail-table tr td {
+  padding: 10px 10px;
+}
+
+.detail-table tr:nth-child(even) {
+  background-color: #8b324d;
+}
+
+.detail-table tr:nth-child(odd) {
+  background-color: #a23b5a;
 }
