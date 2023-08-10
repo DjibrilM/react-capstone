@@ -14,10 +14,10 @@ const Coin = (props) => {
     }
 
     return (
-        <Link to={'detail/'+ props.uuid}>
+        <Link  to={'detail/' + props.uuid}>
             <li className={' w-full h-[200px] flex-col flex items-center  pt-4 gap-2 ' + bgColor}>
-                <img className=' w-10' src={props.iconUrl} alt="" />
-                <h3 className=' text-2xl font-bold text-slate-200'>Polygon</h3>
+                <img role='detail-image' className=' w-10' src={props.iconUrl} alt="" />
+                <h3  role='detail-name' className=' text-2xl font-bold text-slate-200'>{props.name}</h3>
                 <p className=' text-center relative z-10 text-slate-300'>{parseFloat(props.price).toFixed(2)}</p>
             </li>
         </Link>

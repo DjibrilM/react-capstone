@@ -13,8 +13,6 @@ const Detail = () => {
     const state = useSelector(currencySelector);
     const { id } = useParams();
 
-    console.log(state.detailData.data.coin.price);
-
     useEffect(() => {
         dispatch(goForward());
         dispatch(fetchCurrencyDetails(id));
