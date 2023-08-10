@@ -1,53 +1,65 @@
-<h1>🧮 math-magicians</h1>
+<a name="readme-top"></a>
+
+<div align="center">
+  <h1 style="border-bottom: none;">Daily  crypto</h1>
 </div>
+
+<div align="center">
+  <img src="./mobile.png" alt="Screenshot 1" width="300" style="display: inline-block; margin-right: 10px;">
+</div>
+
 
 <!-- TABLE OF CONTENTS -->
 
-# 📶 Dailty ctypto
+# 📗 Table of Contents
 
-- [About the Project](#about-project)
-  - [🛠️ Built With](#built-with)
-    - [Tech Stack](#tech-stack)
-    - [🔑 Key Features](#key-features)
-  - [🚀 Live Demo](#live-demo)
-  - [💻 Getting Started](#getting-started)
+- [📗 Table of Contents](#-table-of-contents)
+- [📖 CryptoNike ](#CryptoNike)
+  - [🛠 Built With ](#-built-with-)
+    - [Tech Stack ](#tech-stack-)
+    - [Key Features ](#key-features-)
+  - [🚀 Live Demo ](#-live-demo-)
+  - [💻 Getting Started ](#-getting-started-)
     - [Prerequisites](#prerequisites)
     - [Setup](#setup)
     - [Install](#install)
-    - [Run Tests](#run-tests)
-    - [Build](#build)
-    - [Webpack Development Server](#webpack-development-server)
-  - [👤 Author](#author)
-  - [🔮 Future Features](#future-features)
-  - [🤝 Contributing](#contributing)
-  - [⭐️ Show Your Support](#show-your-support)
-  - [🙏 Acknowledgments](#acknowledgments)
-  - [📝 License](#license)
+    - [Usage](#usage)
+    - [Run tests](#run-tests)
+     - [Highlights](#highlights)
+  - [👥 Author ](#-author-)
+  - [🔭 Future Features ](#-future-features-)
+  - [🤝 Contributing ](#-contributing-)
+  - [⭐️ Show your support ](#️-show-your-support-)
+  - [🙏 Acknowledgments ](#-acknowledgments-)
+  - [📝 License ](#-license-)
 
-# 📖 About the Project <a name="about-project"></a>
+<!-- PROJECT DESCRIPTION -->
 
-**Dailty ctypto** is a crypto dashbord that gives latest crypto rate and news .
+# 📊 Daily Crypto <a name="about-project"></a>
 
-## 🛠️ Built With <a name="built-with"></a>
+**CryptoNike** Is a website that provides users with the standing of Crypto currencies with their latest statistics accumulated during the 2019-2020 season
+
+## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
 
+
 <details>
-  <summary>🖥️ Client</summary>
+  <summary>Client</summary>
   <ul>
-    <li><a href="https://www.w3schools.com/REACT/">React</a></li>
-    <li><a href="https://www.w3schools.com/css/">CSS</a></li>
-    <li><a href="https://www.w3schools.com/html/">HTML</a></li>
+    <li><a href="https://reactjs.org/">React.js</a></li>
+    <li><a href="https://tailwindcss.com/docs/guides/create-react-app">Tailwind Css</a></li>
+    <li><a href="https://www.css3.com/">CSS</a></li>
   </ul>
 </details>
 
 
-<!-- FEATURES -->
+<!-- Features -->
 
-### 🔑 Key Features <a name="key-features"></a>
+### Key Features <a name="key-features"></a>
 
-- ✨ **Iinormative crypto dashboard**: full demonstration of redux toolkit, speed and efficiency 
-
+- **List of coins with current market cap**
+- **Statistics of each coin** 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -55,130 +67,113 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
--  <a name="live" href="https://space-travelers-0cew.onrender.com/"> link </a>
- 
+- [Live Demo Link](https://react-capstone-liard.vercel.app/
+)
+
+- [video walkthrough Link](https://www.loom.com/share/e8dd0915a33f4564a0ffcd64121abe29)
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- GETTING STARTED -->
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
+To get a local copy up and running, follow these steps:
+
+- Clone this repo as described in the setup section. 
+- Make modifications as preferred
+
 ### Prerequisites
 
-To run this project, you need the following:
-
-- 🌐 Web browser
-- 🐙 Git
-- 👨‍💻 Code editor
+In order to run this project you need: To clone or fork and run it in a browser
 
 ### Setup
 
 Clone this repository to your desired folder:
 
-```bash
-git clone https://github.com/tajulafreen/Space-Travelers-HUB.git
+Example commands:
+
+```sh
+  cd my-folder
+  git clone https://github.com/olanikegloria/CryptoNike.git
 ```
 
 ### Install
 
-To install all dependencies, run the following command:
+- Run ` cd folder `
+- Run ` npm install `
 
-```bash
-npm install
-```
+### Usage
 
-### Run Tests
+To run the project, execute the following command:
 
-To run tests, use the following commands:
+- Run `npm start`
 
-- To track CSS linter errors, run:
-```bash
-npx stylelint "**/*.{css,scss}"
-```
-- To track JavaScript linter errors, run:
-```bash
-npx eslint "**/*.{js,jsx}"
-```
+### Run tests
 
-### Build
+To run tests, run the following command:
 
-To build the project, run the following command:
+- to test validation errors `npx hint .`
 
-```bash
-npm run build
-```
+- to test CSS linter errors `npx stylelint "**/*.{css,scss}"`
 
-### Webpack Development Server
+- to test JavaScript linter errors  `npx eslint .`
 
-To run the webpack development server, execute the following command:
+- to run the jest tests `npx test`
 
-```bash
-npm start
-```
+**Highlight**
+- My highlight for this app I have created is that I love the user interface
+- also the fact that I implemented a search bar
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- AUTHOR -->
+<!-- AUTHORS -->
 
-## 👥 Authors <a name="authors"></a>
+## 👥 Author <a name="author"></a>
 
+👤 **OLANIKE OLATUNJI**
 
-- GitHub: [@DjibrilMugisho](https://github.com/DjibrilM?tab=overview&from=2023-04-01&to=2023-04-26)
-- Twitter: [@djibrilM](https://twitter.com/DjibrilMugisho)
-- LinkedIn: [DjibrilMugisho](https://www.linkedin.com/in/djibril-mugisho-509042241/)
-
+- GitHub: [@DjibrilM](https://github.com/DjibrilM)
+- LinkedIn: [ODjibrilM](https://www.linkedin.com/in/djibril-mugisho/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FUTURE FEATURES -->
 
-## 🔮 Future Features <a name="future-features"></a>
+## 🔭 Future Features <a name="future-features"></a>
 
-- [x] 📱 **Integrate api usage**: 
-- [x] 📝 **add redux**: 
-- [x] 📊**finish testing**
-- [x] ☢️ Fix linters error
-
+- Add charts to display the statistics of each coin
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 <!-- CONTRIBUTING -->
 
 ## 🤝 Contributing <a name="contributing"></a>
 
-Contributions to Daily crypto are welcome! If you would like to contribute, please follow these guidelines:
+Contributions, issues, and feature requests are welcome!
 
-1. Fork the repository and create a new branch for your contribution.
-2. Make your changes and ensure that the code is properly formatted.
-3. Write clear and concise commit messages.
-4. Push your branch to your forked repository.
-5. Submit a pull request detailing the changes you've made.
-
-Feel free to check the [issues page](https://github.com/kit0-0/math-magicians/issues).
+Feel free to check the [issues page](https://github.com/olanikegloria/CryptoNike/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- SHOW YOUR SUPPORT -->
+<!-- SUPPORT -->
 
-## ⭐️ Show Your Support <a name="show-your-support"></a>
+## ⭐️ Show your support <a name="support"></a>
 
-If you like this project, give it a ⭐️.
+Give a ⭐️ if you like this project!
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- ACKNOWLEDGEMENTS -->
 
-## 🙏 Acknowledgments <a name="acknowledgments"></a>
+## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank Microverse for providing guidance and support during the development of this project.
+- Thanks to  [Nelson Sakwa on Behance](https://www.behance.net/sakwadesignstudio) and [Creative Commons license of the design](https://creativecommons.org/licenses/by-nc/4.0/) for the design idea.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
-<!-- LICENSE -->
-
 ## 📝 License <a name="license"></a>
 
-This project is licensed under the [MIT License](./LICENSE).
+This project is [MIT](LICENSE) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
