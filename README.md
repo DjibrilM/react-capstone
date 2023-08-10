@@ -55,7 +55,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
--  <a name="live" href="https://space-travelers-0cew.onrender.com/"> link </a>
+-  <a name="live" href="https://react-capstone-liard.vercel.app/"> link </a>
  
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
