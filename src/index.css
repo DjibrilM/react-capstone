@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700&display=swap');
+
+body {
+  background-color: #f1f5f9;
+  font-family: 'Lato', sans-serif;
+  overflow-x: hidden;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.odd {
+  background-color: #8b324d;
+}
+
+.even {
+  background-color: #a23b5a;
+}
+
+.detail-table tr {
+  height: 100px;
+}
+
+.detail-table h1 {
+  font-weight: bolder;
+}
+
+.detail-table tr td {
+  padding: 10px 10px;
+}
+
+.detail-table tr:nth-child(even) {
+  background-color: #8b324d;
+}
+
+.detail-table tr:nth-child(odd) {
+  background-color: #a23b5a;
+}
