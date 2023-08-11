@@ -131,7 +131,7 @@ To run tests, run the following command:
 
 ## 👥 Author <a name="author"></a>
 
-👤 **OLANIKE OLATUNJI**
+👤 **Djbril Mugisho**
 
 - GitHub: [@DjibrilM](https://github.com/DjibrilM)
 - LinkedIn: [ODjibrilM](https://www.linkedin.com/in/djibril-mugisho/)
@@ -151,7 +151,7 @@ To run tests, run the following command:
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/olanikegloria/CryptoNike/issues).
+Feel free to check the [issues page](https://github.com/DjibrilM/react-capstone/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
